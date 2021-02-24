@@ -166,8 +166,20 @@ footer {
 }
 
 
+/* Services csses  */
 
+#services li {
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 30px;
+	background-color: #e6e6e6;
+}
 
+#sidebar .quote input, #sidebar .quote textarea {
+	width: 90%;
+	padding: 5px;
+}
 
 
 
