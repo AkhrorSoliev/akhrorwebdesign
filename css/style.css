@@ -1,0 +1,177 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: #f4f4f4;
+}
+
+
+	/* Global container */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Header */
+
+header {
+	background-color: #35424a;
+	color: white;
+	min-height: 70px;
+	border-bottom: 3px #e8491d solid;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul {
+	margin: 0;
+	padding: 0; /* bu umumiy bo'lgani uchun global tarafga ko'chiriladi */
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #brand {
+	float: left;
+}
+
+header #brand {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+	margin-top: 35px;
+}
+
+header .highlite , header .current {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+	min-height: 650px;
+	background: url('https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1031&q=80') 0 -300px;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+}
+
+#showcase h1 {
+	margin-top: 200px;
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+
+#showcase p {
+	font-size: 20px;
+}
+
+
+#newsletter {
+	padding: 15px;
+	color: #ffffff;
+	background-color: #35424a;
+}
+
+#newsletter h1 {
+	float: left;
+}
+
+#newsletter form {
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type='email'] {
+	padding: 5px;
+	height: 25px;
+	width: 250px;
+}
+
+.button_1 {
+	height: 38px;
+	background-color: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+/* Boxes */
+
+#boxes {
+	margin-top: 25px;
+}
+
+#boxes .box {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box img {
+	width: 90px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+/* about page csses */
+
+#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+.main-col {
+	float: left;
+	width: 65%;
+}
+
+
+
+.dark {
+	padding: 15px;
+	background-color: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+.box-img {
+	width: 100px;
+	height: 100px;
+}
