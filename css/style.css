@@ -187,3 +187,36 @@ footer {
 	width: 100px;
 	height: 100px;
 }
+
+
+@media(max-widht: 768px) {
+	header #barnd,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#main-col,
+	#sidebar {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header {
+		padding-top: 20px;
+	}
+
+	#showcase h1 {
+		margin-top: 40px;
+	}
+
+	#newslatter .button, .quote .button {
+		display: block;
+		width: 100%;
+	}
+
+	#newslatter form input[type="email"], .quote input, .quote textarea {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+}
