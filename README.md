@@ -11,4 +11,4 @@ Phone: +998 97 206 2922
 
 Email: akhsoliev@gmail.com
 
-Instagram: @ahror_soliyev98
+Instagram: instagram.com/ahror_soliyev98
